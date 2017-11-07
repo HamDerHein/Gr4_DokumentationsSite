@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+}
+
+
+body {
+    background-color: bisque;
+    margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+{}
+
+p {}
+
+
+nav {
+    float: right;
+    padding: 0 2%;
+    text-align: right;
+
+}
+
+nav.a,
+nav {
+    color: #ffffff;
+    font-size: 18px;
+    background: linear-gradient(to bottom, #0f6756, rgba(107, 167, 86, 0));
+}
+
+/***************** Flex elements ******************/
+
+/***************** Flex elements slut ******************/
