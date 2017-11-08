@@ -6,6 +6,7 @@
 body {
     background-color: bisque;
     margin: 0;
+    padding: 2%;
 }
 
 h1,
@@ -14,23 +15,62 @@ h3,
 h4,
 {}
 
+h1 {
+    font-size: 64px;
+}
+
 p {}
 
+#style {
+    font-size: 2vw;
+    border-style: ridge;
+    border-color: aqua;
+
+}
+
+.sectionwrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.column {
+    flex-grow: 1;
+    flex-basis: 300px;
+    background-color: azure;
+}
+
+section {
+    background-color: rgba(0, 0, 0, 2.1);
+
+    margin: 3%;
+    padding: 0.3%;
+}
 
 nav {
     float: right;
-    padding: 0 2%;
+    padding: 3 9%;
     text-align: right;
 
+
+}
+
+#ideh1 {
+    text-align: center;
+    border-style: solid;
+    margin: 3%;
+
+
+}
+
+#styleh1 {
+    text-align: center;
+    border-style: solid;
+    margin: 3%;
 }
 
 nav.a,
 nav {
-    color: #ffffff;
+
     font-size: 18px;
-    background: linear-gradient(to bottom, #0f6756, rgba(107, 167, 86, 0));
+    background: linear-gradient(to bottom, #fff, rgba(215, 44, 0, 9));
 }
-
-/***************** Flex elements ******************/
-
-/***************** Flex elements slut ******************/
