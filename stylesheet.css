@@ -4,7 +4,7 @@
 
 
 body {
-    background-color: bisque;
+    background-color: #fa8d04;
     margin: 0;
     padding: 2%;
 }
@@ -16,7 +16,7 @@ h4,
 {}
 
 h1 {
-    font-size: 64px;
+    font-size: 40px;
 }
 
 p {}
@@ -36,14 +36,13 @@ p {}
 .column {
     flex-grow: 1;
     flex-basis: 300px;
-    background-color: azure;
+    background-color: white;
 }
 
 section {
     background-color: rgba(0, 0, 0, 2.1);
+    margin: 3%, 3%;
 
-    margin: 3%;
-    padding: 0.3%;
 }
 
 nav {
@@ -56,7 +55,6 @@ nav {
 
 #ideh1 {
     text-align: center;
-    border-style: solid;
     margin: 3%;
 
 
@@ -64,7 +62,6 @@ nav {
 
 #styleh1 {
     text-align: center;
-    border-style: solid;
     margin: 3%;
 }
 
