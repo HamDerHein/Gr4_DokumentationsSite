@@ -62,7 +62,7 @@ p {
 .sectionwrapper {
 	display: flex;
 	flex-wrap: wrap;
-
+	justify-content: space-around;
 	font-family: 'modern_sansregular';
 	line-height: 150%;
 }
@@ -79,8 +79,7 @@ p {
 
 section {
 	background-color: rgba(0, 0, 0, 2.1);
-	margin: 3%, 3%;
-
+	padding: 3% 3%;
 	flex-grow: 1;
 	flex-basis: 300px;
 	background-color: white;
@@ -109,11 +108,28 @@ nav {
 
 }
 
+#diagramh1 {
+	text-align: center;
+	margin: 3%;
+
+}
+
 nav.a,
 nav {
 
 	font-size: 18px;
 	background: linear-gradient(to bottom, #fff, rgba(215, 44, 0, 9));
+}
+
+a {
+	color: #202532;
+	cursor: pointer;
+	text-decoration: none;
+
+}
+
+a:hover {
+	color: #89cce5;
 }
 
 img {
@@ -125,4 +141,5 @@ img {
 	background-size: 100%;
 	height: 80vw;
 	width: 80vw;
+	padding-left: 5vw;
 }
