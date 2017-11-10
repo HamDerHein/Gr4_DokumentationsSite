@@ -1,28 +1,24 @@
 @font-face {
-	font-family: 'modern_sansregular';
-	src: url('moderne_sans-webfont.woff2') format('woff2'),
-	url('moderne_sans-webfont.woff') format('woff');
-	font-weight: normal;
-	font-style: normal;
+    font-family: 'modern_sansregular';
+    src: url('moderne_sans-webfont.woff2') format('woff2'),
+    url('moderne_sans-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
 
 }
 
 
 * {
-	box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 
 body {
-<<<<<<< HEAD
+
     background-color: #fa8d04;
     margin: 0;
     padding: 2%;
-=======
-	background-color: bisque;
-	margin: 0;
-	padding: 2%;
->>>>>>> origin/master
+
 }
 
 h1,
@@ -32,90 +28,64 @@ h4,
 {}
 
 h1 {
-<<<<<<< HEAD
     font-size: 40px;
-=======
-	font-family: 'modern_sansregular';
-	font-size: 64px;
->>>>>>> origin/master
+    font-family: 'modern_sansregular';
+
 }
 
 p {
-	font-family: 'modern_sansregular';
+    font-family: 'modern_sansregular';
 }
 
 #style {
-	font-family: 'modern_sansregular';
-	font-size: 2vw;
-	/*	border-style: ridge;*/
-	/*	border-color: aqua;*/
+    font-family: 'modern_sansregular';
+    font-size: 2vw;
+    /*	border-style: ridge;*/
+    /*	border-color: aqua;*/
 }
 
 .sectionwrapper {
-	display: flex;
-	flex-wrap: wrap;
+    display: flex;
+    flex-wrap: wrap;
 }
 
-.column {
-<<<<<<< HEAD
-    flex-grow: 1;
-    flex-basis: 300px;
-    background-color: white;
-}
+.column {}
 
 section {
     background-color: rgba(0, 0, 0, 2.1);
     margin: 3%, 3%;
 
-=======
-	flex-grow: 1;
-	flex-basis: 300px;
-	background-color: white;
+    flex-grow: 1;
+    flex-basis: 300px;
+    background-color: white;
 }
 
-section {
-	/*	background-color: rgba(0, 0, 0, 2.1);*/
-	margin: 3%;
-	padding: 0.3%;
->>>>>>> origin/master
-}
+
 
 nav {
-	font-family: 'modern_sansregular';
-	float: right;
-	padding: 3 9%;
-	text-align: right;
+    font-family: 'modern_sansregular';
+    float: right;
+    padding: 3 9%;
+    text-align: right;
 
 
 }
 
 #ideh1 {
-<<<<<<< HEAD
     text-align: center;
     margin: 3%;
-=======
-	text-align: center;
-	/*	border-style: solid;*/
-	margin: 3%;
->>>>>>> origin/master
-
 
 }
 
 #styleh1 {
-<<<<<<< HEAD
     text-align: center;
     margin: 3%;
-=======
-	text-align: center;
-	/*    border-style: solid;*/
-	margin: 3%;
->>>>>>> origin/master
+
 }
 
 nav.a,
 nav {
 
-	font-size: 18px;
-	background: linear-gradient(to bottom, #fff, rgba(215, 44, 0, 9));
+    font-size: 18px;
+    background: linear-gradient(to bottom, #fff, rgba(215, 44, 0, 9));
 }
