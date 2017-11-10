@@ -1,12 +1,22 @@
+@font-face {
+	font-family: 'modern_sansregular';
+	src: url('moderne_sans-webfont.woff2') format('woff2'),
+	url('moderne_sans-webfont.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+
+}
+
+
 * {
-    box-sizing: border-box;
+	box-sizing: border-box;
 }
 
 
 body {
-    background-color: bisque;
-    margin: 0;
-    padding: 2%;
+	background-color: bisque;
+	margin: 0;
+	padding: 2%;
 }
 
 h1,
@@ -16,61 +26,64 @@ h4,
 {}
 
 h1 {
-    font-size: 64px;
+	font-family: 'modern_sansregular';
+	font-size: 64px;
 }
 
-p {}
+p {
+	font-family: 'modern_sansregular';
+}
 
 #style {
-    font-size: 2vw;
-    border-style: ridge;
-    border-color: aqua;
-
+	font-family: 'modern_sansregular';
+	font-size: 2vw;
+	/*	border-style: ridge;*/
+	/*	border-color: aqua;*/
 }
 
 .sectionwrapper {
-    display: flex;
-    flex-wrap: wrap;
+	display: flex;
+	flex-wrap: wrap;
 }
 
 .column {
-    flex-grow: 1;
-    flex-basis: 300px;
-    background-color: azure;
+	flex-grow: 1;
+	flex-basis: 300px;
+	background-color: white;
 }
 
 section {
-    background-color: rgba(0, 0, 0, 2.1);
-
-    margin: 3%;
-    padding: 0.3%;
+	/*	background-color: rgba(0, 0, 0, 2.1);*/
+	margin: 3%;
+	padding: 0.3%;
 }
 
 nav {
-    float: right;
-    padding: 3 9%;
-    text-align: right;
+	font-family: 'modern_sansregular';
+	float: right;
+	padding: 3 9%;
+	text-align: right;
 
 
 }
 
 #ideh1 {
-    text-align: center;
-    border-style: solid;
-    margin: 3%;
+	text-align: center;
+	/*	border-style: solid;*/
+	margin: 3%;
 
 
 }
 
 #styleh1 {
-    text-align: center;
-    border-style: solid;
-    margin: 3%;
+	text-align: center;
+	/*    border-style: solid;*/
+	margin: 3%;
 }
 
 nav.a,
 nav {
 
-    font-size: 18px;
-    background: linear-gradient(to bottom, #fff, rgba(215, 44, 0, 9));
+	font-size: 18px;
+	background: linear-gradient(to bottom, #fff, rgba(215, 44, 0, 9));
 }
