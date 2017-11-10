@@ -30,23 +30,25 @@ h4,
 h1 {
     font-size: 40px;
     font-family: 'modern_sansregular';
+    text-transform: uppercase;
 
 }
 
 p {
     font-family: 'modern_sansregular';
+    line-height: 150%;
 }
 
 #style {
     font-family: 'modern_sansregular';
     font-size: 2vw;
-    /*	border-style: ridge;*/
-    /*	border-color: aqua;*/
+
 }
 
 .sectionwrapper {
     display: flex;
     flex-wrap: wrap;
+    padding: 4%;
 }
 
 .column {}
