@@ -179,8 +179,8 @@ nav {
 #styleh1 {
 	text-align: center;
 	margin: 3%;
-
 }
+
 
 #assetsh1 {
 	text-align: center;
@@ -203,7 +203,7 @@ nav {
 	margin: 3%;
 }
 
-nav.a,
+
 nav {
 
 	font-size: 18px;
@@ -240,7 +240,7 @@ a:hover {
 }
 
 .facebook {
-	width: 40%;
+	width: 50%;
 }
 
 .facebook img {
@@ -375,6 +375,7 @@ footer {
 	flex-basis: 300px;
 	flex-grow: 1;
 	padding-top: 2vw;
+	text-align: center;
 }
 
 .tekst1 {
