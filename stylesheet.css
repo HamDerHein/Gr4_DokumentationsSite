@@ -150,6 +150,7 @@ nav {
 	padding-bottom: 2%;
 }
 
+
 #annoncerh1 {
 	text-align: center;
 	margin: 3%;
@@ -173,7 +174,7 @@ nav {
 	font-family: 'Raleway';
 	/*	text-decoration: underline;*/
 	font-weight: bold;
-	padding-top: 5vw;
+	padding-top: 2vw;
 }
 
 #styleh1 {
@@ -269,6 +270,32 @@ a:hover {
 	background-color: white;
 	padding: 0;
 	height: 10vw;
+}
+
+#diagrammer {
+	text-align: center;
+}
+
+#dokumentation {
+	display: flex;
+	flex-wrap: wrap;
+	align-content: center;
+	width: 100%;
+	flex-grow: 1;
+	flex-basis: 300px;
+}
+
+.dokumentation_tekst {
+	font-family: 'Raleway';
+	margin-top: 5vw;
+	font-size: 1.2em;
+
+	font-weight: bolder;
+	text-align: center;
+	width: 100%;
+	flex-grow: 1;
+	flex-basis: 300px;
+	/*	width: 100%;*/
 }
 
 .tekst_href {
